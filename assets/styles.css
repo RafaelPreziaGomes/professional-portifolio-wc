@@ -1,0 +1,357 @@
+/* css custom styles */
+
+/* tag selectors */
+
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  text-align: center;
+  font-family: Rubik, sans-serif;
+}
+
+li {
+  display: inline;
+  margin: 20px;
+  padding: 20px;
+}
+
+a {
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 9vw;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h3 {
+  font-size: 1.5vw;
+  text-align: left;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
+hr {
+  border-style: dashed dashed none none;
+  width: 3%;
+  /*height: 0px; */
+  border-color: #03256c;
+  border-width: 5px;
+  border-radius: 10px 100px / 120px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+img {
+  width: 33%;
+  height: auto;
+  margin: 10px;
+}
+
+p {
+  text-align: left;
+  line-height: 2;
+  font-size: 15px;
+  margin: 20px;
+}
+
+hr {
+  border-style: dashed dashed none none;
+  width: 3%;
+  /*height: 0px; */
+  border-color: black;
+  border-width: 5px;
+  border-radius: 10px 100px / 120px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+section {
+  margin-top: 200px;
+}
+
+/* class selectors */
+
+.primary-div {
+  height: 400px;
+}
+
+.secondary-div {
+  height: 200px;
+}
+
+.top-container {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin: 0 auto;
+  width: 95%;
+  height: 200%;
+}
+
+.secondary-title {
+  font-size: 3.8vw;
+  text-align: center;
+  margin: 20px;
+}
+
+.column {
+  display: inline;
+}
+
+.my-work-image {
+  margin: 0 auto;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.first-my-work-image {
+  margin: 0 auto;
+  width: max-content;
+  border-radius: 20px;
+}
+
+.last-section {
+  margin-top: 200px;
+  background-color: white;
+}
+
+.my-work-subtitle {
+  margin-top: 20%;
+}
+
+.BUTTON_RDV {
+  -webkit-border-radius: 2vw;
+  -moz-border-radius: 2vw;
+  border-radius: 2.5vw;
+  color: white;
+  font-family: Rubik, sans-serif;
+  font-size: 2vw;
+  font-weight: 100;
+  padding: 2.5vw;
+  background-color: black;
+  border: solid black 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 3% 2% 10% 2%;
+  max-width: 300%;
+  max-height: 300%;
+}
+
+.BUTTON_RDV:hover {
+  background: black;
+  border: solid black 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.bottom-container-hyperlinks {
+  color: black;
+  margin: 15px;
+  font-size: 1.8vw;
+  text-decoration: none;
+  position: relative;
+}
+
+.bottom-container-hyperlinks:hover {
+  color: white;
+}
+
+.copyright-logomark {
+  margin: auto 60px;
+}
+
+.subtitle {
+  margin: 30%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 900px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: auto;
+
+  font-size: 2vw;
+}
+
+.my-skills-graphic {
+  width: 25%;
+
+  margin: 10%;
+  /**
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px; **/
+}
+
+.skills {
+  width: 70%;
+  margin: auto;
+}
+
+.primary-section {
+  margin-top: 0px;
+}
+
+/* id selectors  */
+
+#primary-graphic {
+  max-width: 300%;
+  max-height: 300%;
+  position: relative;
+  top: 17px;
+}
+
+#middle-container-subtitle {
+  position: relative;
+
+  font-size: 3.8vw;
+}
+
+#primary-title {
+  text-align: center;
+  font-size: 4.5vw;
+  font-weight: bold;
+}
+
+#primary-subtitle {
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+#intro-subtitle {
+  text-align: center;
+  font-size: 100%;
+  margin: 20%;
+}
+
+#profile-image {
+  margin-top: 14%;
+  width: 35%;
+}
+
+#footer-heading {
+  font-size: 3.8vw;
+}
+
+#My-Skills {
+  margin-top: 400px;
+}
+
+/* media queries */
+/* media queries for mobile and tablet screen size */
+
+@media screen and (max-width: 780px) {
+  /* tag selectors  */
+
+  img {
+    width: 90%;
+    height: 500px;
+    margin: 10px;
+  }
+
+  /* class selectors */
+
+  .top-container {
+    background-color: black;
+
+    color: white;
+
+    width: 100%;
+    height: 200%;
+  }
+
+  .my-work-image {
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .my-skills-graphic {
+    width: 35%;
+
+    margin: 20%;
+    /**
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px; **/
+  }
+
+  .my-work-cl {
+    margin-right: 20%;
+  }
+
+  .first-my-work-image {
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 50px;
+  }
+
+  .last-section {
+    margin-top: 400px;
+    background-color: white;
+  }
+
+  .secondary-title {
+    text-align: center;
+    font-size: 150%;
+  }
+
+  .secondary-div {
+    height: 300px;
+  }
+
+  /* id selectors */
+
+  #intro-subtitle {
+    text-align: center;
+    font-size: 100%;
+    margin: 7%;
+  }
+
+  #primary-title {
+    text-align: center;
+    font-size: 6vw;
+    color: white;
+  }
+
+  #primary-subtitle {
+    text-align: center;
+    font-size: 3.5vw;
+    color: white;
+  }
+
+  #profile-image {
+    width: 35%;
+    margin-bottom: 40px;
+  }
+
+  #My-Skills {
+    margin-top: 100px;
+  }
+}
+
+/* media queries for mobile screen size */
+
+@media screen and (max-width: 470px) {
+  /* class selectors */
+
+  .last-section {
+    margin-top: 100px;
+    background-color: white;
+  }
+}
